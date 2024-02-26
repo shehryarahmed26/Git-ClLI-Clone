@@ -389,6 +389,7 @@ color: forestgreen;
     }
     .sub-footer {
         flex-direction: column;
+        align-items: center;
     }
     .url {
         overflow: auto;
