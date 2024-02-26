@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+p {
+    font-family: 'roboto', sans-serif;
+}
+.container {
+    padding-inline: 40px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+nav {
+    background-color: #0d1117;
+    /* height: 90vh; */
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    color: rgb(234, 227, 227);
+    margin-top: 15px;
+    display: flex;
+}
+.nav-right {
+    margin-top: 15px;
+}
+.nav-right a {
+    color: #e6edf3;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.nav-right a:hover {
+    text-decoration: underline;
+}
+.logo i {
+    font-size: 1.8rem;
+}
+.logo span {
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.right-1 {
+    margin-inline: 15px;
+}
+                                        /* hero section  */
+
+.hero h1 {
+    color: #e6edf3;
+    font-size: 4.3rem;
+    font-weight: 800;
+    line-height: 4rem;
+    max-width: 80%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.hero {
+    max-width: 60%;
+    margin-inline: auto;
+}
+.sub-heading {
+    color: #6e7681;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+}
+.hero a {
+    color: rgb(31, 29, 29);
+    background-color: white;
+    padding: 14px 25px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.hero-p {
+    padding-block: 30px;
+    color: white;
+    font-size: 0.8rem;
+}
+                                /* coding section  */
+.coding-sec {
+    background-color: #0d1117;
+    /* height: 110vh; */
+    padding-block: 40px;
+    background-image: url('./Assets/asset\ 4.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.code-head {
+    margin-inline: auto;
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.dollar {
+    color: rgb(19, 112, 199);
+    font-size: 1.6rem;
+}
+.code-p {
+    color: white;
+    font-size: 0.8rem;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    /* margin-block: 10px; */
+}
+.code-screen {
+    width: 80%;
+    /* height: 70vh; */
+    padding-bottom: 20px;
+    background-color: black;
+    margin-inline: auto;
+}
+.loader {
+    display: flex;
+    gap: 5px;
+    margin-left: 10px;
+    /* margin-top: 20px; */
+}
+.load {
+    width: 12px;
+    height: 12px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: rgb(49, 48, 48);
+}
+.pause {
+    display: flex;
+    margin-right: 10px;
+    justify-content: end;
+    /* background-color: wheat; */
+}
+.pause img {
+    background-color: rgba(255, 255, 255, 0.863);
+}
+.screen-text p {
+    color: white;
+    font-size: 0.9rem;
+    margin-left: 10px;
+    line-height: 1.2rem;
+}
+.scr-p::before {
+content: '?';
+color: forestgreen;
+}
+.blue {
+    color: rgb(0, 83, 161);
+}
+.code-end-p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 30px;
+}
+.git-inform h2 {
+    font-size: 4rem;
+    color: rgb(24, 24, 24);
+    max-width: 80%;
+    line-height: 4rem;
+    margin-block: 60px;
+}
+.git-card h4 {
+     color: rgb(24, 24, 24);;
+     font-size: 1.4rem;
+}
+.git-card {
+    width: 25%;
+}
+.git-card p {
+    color: #414242;
+    font-size: 0.9rem;
+}
+.git-card a {
+    text-decoration: none;
+    color: rgb(9, 94, 205);
+    font-size: 0.8rem;
+}
+.cards-area {
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.git-cmd {
+    background: url('./Assets/asset\ 3.png');
+    height: 65vh;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    /* align-items: center; */
+}
+.primary-button {
+    color: white;
+    background-color: rgb(31, 29, 29);
+    padding: 14px 25px;
+    /* margin-bottom: 20px; */
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    /* margin-block: 5px; */
+    display: inline-block;
+}
+.git-box {
+    background: white;
+    margin-inline: auto;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.744);
+    /* margin-top: 30px; */
+    margin-top: 40px;
+    height: fit-content;
+    padding: 20px 55px;
+}
+.git-box h3, p, a {
+    padding-block: 10px;
+}
+.git-box h3 {
+    font-size: 1.9rem;
+}
+.git-box a {
+    margin-block: 20px;
+}
+.ins {
+    padding-block: 10px;
+    display: block;
+    text-decoration: none;
+    color: rgb(9, 94, 205);
+}
+.link-area {
+    align-items: start;
+    justify-content: center;
+    gap: 100px;
+}
+.f-col {
+    flex-direction: column;
+    gap: 5px;
+    line-height: 1rem;
+}
+.f-col a {
+    line-height: 1.5rem;
+    padding-block: 0;
+    margin-block: 0;
+    text-decoration: none;
+    color: grey;
+
+    font-size: 0.8rem;
+}
+.f-col h4 {
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.col-area {
+    justify-content: space-between;
+    align-items: start;
+}
+.footer {
+    margin-top: 20px;
+}
+.footer-logo {
+    min-width: 25%;
+}
+.sub-footer {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6f8fa;
+    padding-block: 20px;
+}
+.sub-f-right a, span {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: rgb(150, 145, 145);
+    margin-inline: 7px;
+}
+.sub-f-right a:hover {
+    text-decoration: underline;
+}
+.sub-f-left img {
+    filter: brightness(0) saturate(100%) invert(55%) sepia(0%) saturate(0%) hue-rotate(173deg) brightness(90%) contrast(87%);
+    margin-inline: 5px;
+}
+@media only screen and (max-width: 900px) {
+    .hero {
+        min-width: 80%;
+    }
+    .hero h1 {
+        font-size: 3.4rem;
+        min-width: 100%;
+    }
+    .hero p {
+        min-width: 100%;
+        font-size: 1.2rem;
+    }
+    .git-inform h2 {
+        font-size: 3rem;
+    }
+    .col-area {
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .hero {
+        margin-inline: none;
+        text-align: start;
+        min-width: 100%;
+    }
+    .hero h1 {
+        width: 100%;
+        font-size: 2.4rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .sub-heading {
+        margin-bottom: 20px;
+    }
+    .hero-p {
+        font-size: 0.8rem !important;
+    }
+    .git-inform h2 {
+        font-size: 1.5rem;
+        min-width: 100%;
+        margin-block: 20px;
+    }
+    .cards-area {
+        flex-direction: column;
+    }
+    .git-card {
+        min-width: 90%;
+        margin-bottom: 30px;
+    }
+    .git-card h4{
+        font-size: 1.2rem;
+        width: 100%;
+    }
+    .git-card p {
+        font-size: 0.7rem;
+    }
+    .git-card a {
+        font-size: 0.7rem;
+    }
+    .git-cmd {
+        justify-content: flex-start;
+    }
+    .git-box h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .git-box {
+        padding-block: 10px;
+        margin-inline: 0;
+    }
+    .git-box p {
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+    .primary-button {
+        font-size: 0.7rem;
+        padding: 14px 20px;
+        display: inline;
+    }
+    .ins {
+        font-size: 0.8rem;
+        padding-block: 0;
+        margin-block: 0;
+    }
+    .git-cmd {
+        margin-bottom: 50px;
+    }
+
+}
+@media only screen and (max-width: 544px) {
+    .link-area {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .sub-footer {
+        flex-direction: column;
+    }
+    .url {
+        overflow: auto;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .container {
+        padding-inline: 20px;
+    }
+    .hero h1 {
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+    .hero p {
+        width: 100%;
+        font-size: 1.1rem;
+        text-align: start;
+    }
+    .code-end-p {
+        font-size: 1.2rem;
+    }
+    .git-inform h2 {
+        line-height: 2rem;
+        font-size: 1.8rem;
+    }
+    .primary-button {
+        padding: 10px 10px;
+    }
+    .git-box {
+        padding-inline: 10px;
+        /* text-align: center; */
+    }
+    .link-area {
+        /* flex-wrap: nowrap; */
+        gap: 50px;
+    }
+}
